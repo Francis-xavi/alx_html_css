@@ -29,3 +29,30 @@ header, footer, main, article, aside {
     padding: 10px;
     border: 1px solid #ccc;
 }
+
+.works_on_smartphone main {
+    flex-direction: column;
+}
+
+article {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    color: #333;
+}
+
+article h1, article h2, article h3 {
+    color: #2a2a8f;
+    margin-top: 1em;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-right: 10px;
+}
