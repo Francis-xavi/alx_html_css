@@ -1,0 +1,23 @@
+.pentagon-box {
+  width: 100px;
+  height: 100px;
+  background: #FF686B;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.pentagon-box h3 {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+
+.pentagon-box p {
+  font-size: 9px;
+  color: white;
+  margin: 5px 0 0;
+}
